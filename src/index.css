@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-kaza-green: #0E4728;
+  --color-kaza-peach: #F2B091;
+  --color-kaza-mint: #10B981;
+  --color-kaza-red: #EF4444;
+  --color-kaza-amber: #F59E0B;
+
+  --font-sora: 'Sora', sans-serif;
+  --font-geist: 'Geist', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+#root {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--background-page);
+  color: var(--foreground-page);
+  font-family: var(--font-geist);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title,
+.subtitle {
+  font-family: var(--font-sora);
+  color: var(--color-kaza-green);
+}
+
+p,
+li,
+span,
+label,
+input,
+textarea,
+select,
+button,
+table,
+th,
+td,
+small {
+  font-family: var(--font-geist);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-kaza-green { color: var(--color-kaza-green); }
+.text-kaza-peach { color: var(--color-kaza-peach); }
+.text-kaza-mint { color: var(--color-kaza-mint); }
+.text-kaza-red { color: var(--color-kaza-red); }
+.text-kaza-amber { color: var(--color-kaza-amber); }
+
+.bg-kaza-green { background-color: var(--color-kaza-green); }
+.bg-kaza-peach { background-color: var(--color-kaza-peach); }
+.bg-kaza-mint { background-color: var(--color-kaza-mint); }
+.bg-kaza-red { background-color: var(--color-kaza-red); }
+.bg-kaza-amber { background-color: var(--color-kaza-amber); }
+
+.border-kaza-green { border-color: var(--color-kaza-green); }
+.border-kaza-peach { border-color: var(--color-kaza-peach); }
+.border-kaza-mint { border-color: var(--color-kaza-mint); }
+.border-kaza-red { border-color: var(--color-kaza-red); }
+.border-kaza-amber { border-color: var(--color-kaza-amber); }
