@@ -1,6 +1,8 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+      
+
+          <UiBaseButton>Test auto-import</UiBaseButton>
+
   </div>
 </template>

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* stylelint-disable-next-line at-rule-no-unknown */
+@theme {
+  --color-kaza-green: #0E4728;
+  --color-kaza-peach: #F2B091;
+  --color-kaza-mint: #10B981;
+  --color-kaza-red: #EF4444;
+  --color-kaza-amber: #F59E0B;
+
+  --font-title: "Sora", sans-serif;
+  --font-body: "Geist Sans", sans-serif;
+}
+/* stylelint-enable at-rule-no-unknown */
