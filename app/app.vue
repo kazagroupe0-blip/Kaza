@@ -1,8 +1,11 @@
+<script setup lang="ts">
+</script>
+
 <template>
   <div>
       
 
-          <UiBaseButton>Test auto-import</UiBaseButton>
+          <UiButton>Test auto-import</UiButton>
 
   </div>
 </template>
